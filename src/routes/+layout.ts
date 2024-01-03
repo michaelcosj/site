@@ -1,3 +1,5 @@
+export const prerender = true;
+
 import type { Post } from "$lib/types";
 import type { LayoutLoad } from "./$types";
 

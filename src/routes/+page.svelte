@@ -15,22 +15,23 @@
 <section class="grid md:grid-cols-2 gap-y-16 gap-x-3">
     <div class="flex flex-col gap-3 md:w-[90%]">
         <!-- heading -->
-        <h1 class="text-4xl font-black text-white">
-            Heyy! I'm&nbsp;<span class="text-green-600">Michael</span>,
-        </h1>
+        <h1 class="text-4xl font-black text-white">Heyy there!</h1>
         <p class="text-justify text-sm lg:text-base font-medium">
-            Welcome to my website! I'm a software developer, freelancer and
+            I'm <span class="text-green-600">Michael</span>, a software
+            developer, freelancer and
             <a
                 class="transition duration-300 text-white underline underline-offset-2 hover:decoration-2 hover:decoration-green-600"
                 href="https://beacons.ai/steffothesantanaman"
             >
                 indie comic book writer</a
-            >. <br />
-            I write code for fun <strike>and profit</strike>
-            (please hire me!🙏), usually building web services and CLI tools
-            with
+            >
+            from
+            <span class="text-green-600">Nigeria</span>, writing code for fun
+            <strike>and profit</strike>
+            (please hire me!🙏). <br />
+            I build web services and CLI tools usually with
             <span class="text-green-600">golang</span>,
-            <span class="text-green-600">typescript</span>, and
+            <span class="text-green-600">typescript</span>, or
             <span class="text-green-600">c</span>. <br />
             Check out my blog below, where I write about stuff I'm learning and projects
             I'm building.

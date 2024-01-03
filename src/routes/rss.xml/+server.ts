@@ -1,3 +1,5 @@
+export const prerender = true
+
 import { title, description, url } from "$lib/config";
 import type { Post } from "$lib/types";
 import type { RequestHandler } from "./$types";
