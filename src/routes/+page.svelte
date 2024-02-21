@@ -16,19 +16,16 @@
     <div class="flex flex-col gap-3 md:w-[90%]">
         <!-- heading -->
         <h1 class="text-4xl font-black text-white">Heyy there!</h1>
-        <p class="text-justify text-sm lg:text-base font-medium">
+        <p class="text-justify text-base font-medium">
             I'm <span class="text-green-600">Michael</span>, a software
-            developer, freelancer and
-            <a
-                class="transition duration-300 text-white underline underline-offset-2 hover:decoration-2 hover:decoration-green-600"
-                href="https://beacons.ai/steffothesantanaman"
-            >
-                indie comic book writer</a
-            >
-            from
+            developer and freelancer from
             <span class="text-green-600">Nigeria</span>, writing code for fun
             <strike>and profit</strike>
-            (please hire me!🙏). <br />
+            (please
+            <a
+                class="transition underline duration-300 text-white hover:text-green-600 hover:decoration-green-600"
+                href="mailto:michaelcosj@proton.me">hire me!</a
+            >🙏). <br />
             I build web services and CLI tools usually with
             <span class="text-green-600">golang</span>,
             <span class="text-green-600">typescript</span>, or

@@ -10,7 +10,7 @@
     href="/{slug}"
     class="transition duration-300 delay-100 hover:-translate-y-2"
 >
-    <div class="bg-neutral-950 text-white/80 py-5 px-5 flex flex-col gap-2">
+    <div class="bg-neutral-950 text-white/80 py-5 px-5 flex flex-col gap-2 h-full">
         <div class="flex items-center justify-between">
             <p class="text-white">{title}</p>
             <p class="text-xs">

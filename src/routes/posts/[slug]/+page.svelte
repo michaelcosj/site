@@ -28,7 +28,7 @@
 
     <!-- Title -->
     <hgroup class="pt-1 pb-16">
-        <h1 class="text-2xl md:text-5xl pb-1">{data.meta.title}</h1>
+        <h1 class="text-2xl md:text-5xl pb-2">{data.meta.title}</h1>
         <p class="text-sm md:text-base text-white/70">
             {data.meta.description}
         </p>
@@ -36,7 +36,7 @@
 
     <!-- Post -->
     <div
-        class="post-content prose prose-sm dark:prose-invert lg:prose-lg min-w-full"
+        class="post-content prose prose-sm dark:prose-invert lg:prose-base min-w-full"
     >
         <svelte:component this={data.content} />
     </div>

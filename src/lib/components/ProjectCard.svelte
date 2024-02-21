@@ -4,7 +4,7 @@
     export let techUsed: string[];
 </script>
 
-<a href={url} class="transition duration-300 delay-100 hover:-translate-y-2">
+<a href={url} class="transition duration-300 delay-100 hover:-translate-y-1">
     <div
         class="bg-neutral-950 text-white py-5 px-5 flex flex-wrap items-center gap-2"
     >
