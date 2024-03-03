@@ -13,16 +13,19 @@ export const projects = [
 	{
 		name: "Version Control System",
 		url: "https://github.com/michaelcosj/mvcs",
-		techUsed: ["golang", "git", "version control"],
+        description: "Version Control CLI application in golang similar to git",
+		tags: ["golang", "git"],
 	},
 	{
 		name: "Spell Checker",
 		url: "https://spellchecker-production-7388.up.railway.app/",
-		techUsed: ["golang", "algorithms"],
+        description: "Spell checker application using wagner fisher algorithm for determining similarities between words",
+		tags: ["golang", "algorithms"],
 	},
 	{
 		name: "Brainfuck Interpreter",
 		url: "https://github.com/michaelcosj/bf.pas",
-		techUsed: ["pascal", "brainfuck"],
+        description: "A Brainfuck interpreter written in free pascal",
+		tags: ["pascal", "brainfuck"],
 	},
 ];
