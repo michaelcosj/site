@@ -18,9 +18,9 @@ export const projects = [
 	},
 	{
 		name: "Spell Checker",
-		url: "https://spellchecker-production-7388.up.railway.app/",
+		url: "https://spellchecker-spring-wildflower-2638.fly.dev/",
         description: "Spell checker application using wagner fisher algorithm for determining similarities between words",
-		tags: ["golang", "algorithms"],
+		tags: ["golang", "algorithms", "htmx"],
 	},
 	{
 		name: "Brainfuck Interpreter",
