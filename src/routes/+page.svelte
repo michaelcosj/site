@@ -24,10 +24,10 @@
                 href="mailto:michaelcosj@proton.me">hire me!</a
             >🙏). <br />
             I build web services, CLI tools and whatever I want, usually with
+            <span class="text-green-600">PHP</span>,
             <span class="text-green-600">golang</span>,
-            <span class="text-green-600">typescript</span>,
-            <span class="text-green-600">python</span>, or
-            <span class="text-green-600">c</span>. Check out some of my projects
+            <span class="text-green-600">typescript</span>, or
+            <span class="text-green-600">python</span>. Check out some of my projects
             below!
         </p>
         <div class="flex items-center gap-3">
