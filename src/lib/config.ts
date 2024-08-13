@@ -12,22 +12,29 @@ export const url = dev
 export const projects = [
   {
     name: "Version Control System",
-    url: "https://github.com/michaelcosj/mvcs",
-    description: "Simple version control CLI application similar to git written in golang",
+    github: "https://github.com/michaelcosj/mvcs",
+    description: "Git like version control CLI application written in golang",
     tags: ["golang", "git", "vcs"],
   },
   {
     name: "Spell Checker",
     url: "https://spellchecker-spring-wildflower-2638.fly.dev/",
+    github: "https://github.com/michaelcosj/spellchecker",
     description: "Spell checking web app using Wagner–Fischer algorithm",
     tags: ["golang", "algorithms", "htmx"],
   },
   {
     name: "Brainfuck Interpreter",
-    url: "https://github.com/michaelcosj/bf.pas",
+    github: "https://github.com/michaelcosj/bf.pas",
     description: "A Brainfuck interpreter written in free pascal",
     tags: ["pascal", "brainfuck"],
   },
+  {
+    name: "Shorty",
+    github: "https://github.com/michaelcosj/shorty",
+    description: "A Url Shortner in laravel with realtime visit count",
+    tags: ["laravel", "php", "redis"]
+  }
 ];
 
 export const socials = [
@@ -40,7 +47,7 @@ export const socials = [
     url: "https://linkedin.com/michael-osajeh-331995234"
   },
   {
-    name: "X (formerly Twitter)",
+    name: "X (Twitter)",
     url: "https://x.com/garlicIsDead"
   },
   {

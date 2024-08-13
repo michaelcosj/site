@@ -1,23 +1,28 @@
-@import "@fontsource/space-mono";
+@import "@fontsource-variable/roboto-mono";
+@import "@fontsource/inter";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    font-family: "Space Mono";
+  font-family: "Inter", sans-serif;
+}
+
+.mono {
+  font-family: "Roboto Mono Variable", monospace;
 }
 
 :root {
-    @apply bg-black text-white/90
+  @apply bg-gradient-to-r from-black to-gray-950 text-white
 }
 
 @media (prefers-color-scheme: light) {
-    :root {
-        @apply text-neutral-800 bg-neutral-50
-    }
+  :root {
+    @apply text-black bg-neutral-50
+  }
 }
 
 body {
-    @apply flex min-h-screen flex-col gap-24 p-8 md:px-24 lg:px-44
+  @apply flex min-h-screen flex-col gap-24 p-8 md:px-24 lg:px-44
 }
