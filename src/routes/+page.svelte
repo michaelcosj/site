@@ -23,7 +23,7 @@
       cool stuff with Typescript, Laravel and Golang.
     </p>
 
-    <ul class="flex items-center gap-5 text-sm">
+    <ul class="flex flex-wrap items-center gap-5 text-sm">
       {#each socials as account}
         <li class="mono">
           <Link href={account.url} text={account.name} />
