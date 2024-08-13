@@ -13,7 +13,7 @@
     },
     {
       name: "CV",
-      url: "https://docs.google.com/document/d/e/2PACX-1vRfB3CEWYnEESmJic4LZzZfjygQdeK8JPeuNSMWbxSzF5F7zVQVb2wDOURIC3Rhq7LpGDuTL4WzXKMq/pub",
+      url: "https://docs.google.com/document/d/1r91WInGDLTX_vxGklXJzO_UMLuTdRzwm5WIuRh8lTxc/edit?usp=sharing",
     },
   ];
 
