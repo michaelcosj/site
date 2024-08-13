@@ -4,7 +4,7 @@
   import Link from "$lib/components/Link.svelte";
   import PostCard from "$lib/components/PostCard.svelte";
   import type { PageData } from "./$types";
-  import SnakeGame from "$lib/components/SnakeGame.svelte";
+  // import SnakeGame from "$lib/components/SnakeGame.svelte";
 
   export let data: PageData;
 </script>
@@ -18,14 +18,14 @@
     <!-- heading -->
     <h1 class="mono text-4xl font-black pb-5">Michael Osajeh</h1>
 
-    <p class="py-2 text-neutral-400">
+    <p class="py-2 text-neutral-600 dark:text-neutral-400">
       Backend and fullstack web developer from Nigeria. Learning and building
       cool stuff with Typescript, Laravel and Golang.
     </p>
 
     <ul class="flex items-center gap-5 text-sm">
       {#each socials as account}
-        <li>
+        <li class="mono">
           <Link href={account.url} text={account.name} />
         </li>
       {/each}

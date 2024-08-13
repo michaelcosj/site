@@ -17,16 +17,16 @@
   <div class="flex justify-between">
     <div>
       <p
-        class="text-bold pb-1 transition-all max-w-fit group-hover:bg-blue-950"
+        class="font-bold pb-1 transition-all max-w-fit group-hover:bg-black"
       >
         {post.title}
       </p>
-      <p class="text-sm text-neutral-400">
+      <p class="text-sm text-neutral-600 dark:text-neutral-400">
         {truncate(post.description, 100)}
       </p>
     </div>
     <div class="min-w-fit">
-      <p class="text-xs text-neutral-400">
+      <p class="text-xs text-neutral-600 text-neutral-400">
         {formatDate(post.date)}
       </p>
     </div>

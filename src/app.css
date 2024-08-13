@@ -19,7 +19,7 @@ body {
 
 @media (prefers-color-scheme: light) {
   :root {
-    @apply text-black bg-neutral-50
+    @apply text-black bg-none bg-neutral-50
   }
 }
 
