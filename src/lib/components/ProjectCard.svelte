@@ -20,7 +20,7 @@
           <li>
             <a href={project.url}>
               <div
-                class="px-0.5 hover:bg-black hover:has-[svg]:text-white dark:hover:bg-white hover:has-[svg]:text-black"
+                class="px-0.5 hover:bg-black hover:has-[svg]:text-white dark:hover:bg-white dark:hover:has-[svg]:text-black"
               >
                 <LinkIcon />
               </div>
@@ -31,7 +31,7 @@
           <li>
             <a href={project.github}>
               <div
-                class="px-0.5 hover:bg-black hover:has-[svg]:text-white dark:hover:bg-white hover:has-[svg]:text-black"
+                class="px-0.5 hover:bg-black hover:has-[svg]:text-white dark:hover:bg-white dark:hover:has-[svg]:text-black"
               >
                 <GithubIcon />
               </div>
