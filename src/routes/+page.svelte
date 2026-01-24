@@ -4,10 +4,14 @@
   import Link from "$lib/components/Link.svelte";
   import PostCard from "$lib/components/PostCard.svelte";
   import type { PageData } from "./$types";
-    import MovingSquigglyUnderline from "$lib/components/MovingSquigglyUnderline.svelte";
-  // import SnakeGame from "$lib/components/SnakeGame.svelte";
+  import MovingSquigglyUnderline from "$lib/components/MovingSquigglyUnderline.svelte";
+  
 
-  export let data: PageData;
+  interface Props {
+    data: PageData;
+  }
+
+  let { data }: Props = $props();
 </script>
 
 <svelte:head>
@@ -22,7 +26,7 @@
       <MovingSquigglyUnderline/>
     </div>
 
-    <p class="py-2 text-neutral-600 dark:text-neutral-400">
+    <p class="text-sm py-2 text-neutral-600 dark:text-neutral-400">
       Backend and fullstack web developer from Nigeria. Learning and building
       cool stuff with Typescript, Laravel and Golang.
     </p>
@@ -43,9 +47,9 @@
     {#if data.recentPosts.length > 0}
       <div class="flex flex-col gap-4">
         <Link href="/posts">
-          <p class="font-bold">Posts &UpperRightArrow;</p>
+          <p class="font-bold">posts &UpperRightArrow;</p>
         </Link>
-        <div class="flex flex-col gap-6">
+        <div class="flex flex-col gap-8">
           {#each data.recentPosts as post}
             <PostCard {post} />
           {/each}
@@ -55,9 +59,9 @@
 
     <div class="flex flex-col gap-4">
       <Link href="https://github.com/michaelcosj?tab=repositories">
-        <p class="font-bold">Projects &UpperRightArrow;</p>
+        <p class="font-bold">projects &UpperRightArrow;</p>
       </Link>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-8">
         {#each projects as project}
           <ProjectCard {project} />
         {/each}

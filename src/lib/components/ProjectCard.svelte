@@ -2,13 +2,17 @@
   import GithubIcon from "./GithubIcon.svelte";
   import LinkIcon from "./LinkIcon.svelte";
 
-  export let project: {
+  interface Props {
+    project: {
     name: string;
     url?: string;
     github?: string;
     description: string;
     tags: string[];
   };
+  }
+
+  let { project }: Props = $props();
 </script>
 
 <div class="flex justify-between group">
@@ -40,7 +44,7 @@
         {/if}
       </ul>
     </div>
-    <p class="text-neutral-600 dark:text-neutral-400">
+    <p class="text-sm text-neutral-600 dark:text-neutral-400">
       {project.description}
     </p>
     <ul class="flex flex-wrap items-center gap-2 text-sm">

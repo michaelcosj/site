@@ -17,8 +17,8 @@
     },
   ];
 
-  $: isPostPage = $page.url.pathname.includes("posts");
-  $: isHomePage = !isPostPage;
+  let isPostPage = $derived($page.url.pathname.includes("posts"));
+  let isHomePage = $derived(!isPostPage);
 </script>
 
 <nav

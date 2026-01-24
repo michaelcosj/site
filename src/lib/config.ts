@@ -14,7 +14,7 @@ export const projects = [
 		name: "Mini Version Control System (MVCS)",
 		github: "https://github.com/michaelcosj/mvcs",
 		description:
-			"Git like version control CLI application written in golang, with features like staging, commits and branching",
+			"Version control CLI application written in golang exploring merkle trees and git, with features like staging, commits and branching",
 		tags: ["golang", "git", "vcs"],
 	},
 	{
@@ -34,19 +34,19 @@ export const projects = [
 
 export const socials = [
 	{
-		name: "Github",
+		name: "github",
 		url: "https://github.com/michaelcosj",
 	},
 	{
-		name: "LinkedIn",
+		name: "linkedIn",
 		url: "https://linkedin.com/michael-osajeh-331995234",
 	},
 	{
-		name: "X (Twitter)",
+		name: "x (twitter)",
 		url: "https://x.com/osajeh_michael",
 	},
 	{
-		name: "Email",
+		name: "email",
 		url: "mailto:osajehmichael@gmail.com",
 	},
 ];

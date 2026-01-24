@@ -6,7 +6,7 @@
     y: number;
   }
 
-  let canvas: HTMLCanvasElement | undefined;
+  let canvas: HTMLCanvasElement | undefined = $state();
   function runGame() {
     if (!canvas) return;
 

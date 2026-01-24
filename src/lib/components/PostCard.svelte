@@ -2,7 +2,11 @@
   import type { Post } from "$lib/types";
   import { formatDate } from "$lib/utils";
 
-  export let post: Post;
+  interface Props {
+    post: Post;
+  }
+
+  let { post }: Props = $props();
 
   function truncate(str: string, maxLen: number) {
     if (str.length < maxLen) {

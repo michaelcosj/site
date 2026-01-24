@@ -2,7 +2,11 @@
   import PostCard from "$lib/components/PostCard.svelte";
   import type { PageData } from "./$types";
 
-  export let data: PageData;
+  interface Props {
+    data: PageData;
+  }
+
+  let { data }: Props = $props();
 </script>
 
 <section class="flex flex-col gap-8">
