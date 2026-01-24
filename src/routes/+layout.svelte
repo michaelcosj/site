@@ -4,9 +4,8 @@
 </script>
 
 <Nav />
-
-<main class="md:px-24">
-  <slot />
-</main>
-
+  <div class="z-100 fixed inset-0 h-full w-full bg-[url(/grid.svg)] [mask-image:linear-gradient(black, transparent)]"></div>
+  <main class="md:px-24">
+    <slot />
+  </main>
 <Nav />
