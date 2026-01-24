@@ -3,9 +3,12 @@
   import "../app.css";
 </script>
 
+
 <Nav />
-  <div class="z-100 fixed inset-0 h-full w-full bg-[url(/grid.svg)] [mask-image:linear-gradient(black, transparent)]"></div>
-  <main class="md:px-24">
-    <slot />
-  </main>
+
+<main class="relative md:px-24">
+  <div class="pointer-events-none fixed inset-0 h-full w-full bg-[url(/grid.svg)] mask-radial-from-white mask-radial-from-75%"></div>
+  <slot />
+</main>
+
 <Nav />

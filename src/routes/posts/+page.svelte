@@ -10,6 +10,10 @@
   <div class="flex flex-col gap-6">
     {#each data.posts as post}
       <PostCard {post} />
+      {:else}
+      <div class="w-full h-full flex items-center">
+        <p class="text-sm">Nothing to see here... yet!</p>
+      </div>
     {/each}
   </div>
 </section>

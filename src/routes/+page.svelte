@@ -4,6 +4,7 @@
   import Link from "$lib/components/Link.svelte";
   import PostCard from "$lib/components/PostCard.svelte";
   import type { PageData } from "./$types";
+    import MovingSquigglyUnderline from "$lib/components/MovingSquigglyUnderline.svelte";
   // import SnakeGame from "$lib/components/SnakeGame.svelte";
 
   export let data: PageData;
@@ -16,7 +17,10 @@
 <section>
   <div class="pb-12">
     <!-- heading -->
-    <h1 class="mono text-4xl font-black pb-5">Michael Osajeh</h1>
+    <div class="pb-5 max-w-[300px]">
+      <h1 class="mono text-4xl font-black text-nowrap">Michael Osajeh</h1>
+      <MovingSquigglyUnderline/>
+    </div>
 
     <p class="py-2 text-neutral-600 dark:text-neutral-400">
       Backend and fullstack web developer from Nigeria. Learning and building
