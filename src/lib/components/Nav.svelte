@@ -13,7 +13,7 @@
     },
     {
       name: "CV",
-      url: "https://docs.google.com/document/d/1r91WInGDLTX_vxGklXJzO_UMLuTdRzwm5WIuRh8lTxc/edit?usp=sharing",
+      url: "https://docs.google.com/document/d/180MGBbKc6LWLr-bblsE9dHQsBBTksyAWefq3NtBR0tI/edit?usp=sharing",
     },
   ];
 
@@ -26,8 +26,8 @@
 >
   <div class="mono">
     <Link
-      href="mailto:michaelcosj@proton.me"
-      text="michaelcosj@proton.me"
+      href="mailto:me@michaelosajeh.com"
+      text="contact@michaelosajeh.com"
       underline={false}
     />
   </div>

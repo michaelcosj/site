@@ -47,6 +47,6 @@ export const socials = [
 	},
 	{
 		name: "email",
-		url: "mailto:osajehmichael@gmail.com",
+		url: "mailto:contact@michaelosajeh.com",
 	},
 ];
