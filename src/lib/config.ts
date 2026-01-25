@@ -14,7 +14,7 @@ export const projects = [
 		name: "Mini Version Control System (MVCS)",
 		github: "https://github.com/michaelcosj/mvcs",
 		description:
-			"Version control CLI application written in golang exploring merkle trees and git, with features like staging, commits and branching",
+			"Version control CLI application written in golang exploring merkle trees and git. Supports staging, commits and branching",
 		tags: ["golang", "git", "vcs"],
 	},
 	{

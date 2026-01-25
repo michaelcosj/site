@@ -12,7 +12,7 @@
       url: "/posts",
     },
     {
-      name: "CV",
+      name: "résumé",
       url: "https://docs.google.com/document/d/180MGBbKc6LWLr-bblsE9dHQsBBTksyAWefq3NtBR0tI/edit?usp=sharing",
     },
   ];
