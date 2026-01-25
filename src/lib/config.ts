@@ -1,13 +1,13 @@
 import { dev } from "$app/environment";
 
-export const title = "Garlic";
+export const title = "Michael's website";
 export const subtitle = "Michael's personal corner of da web";
 export const authorName = "Michael Osajeh";
-export const authorEmail = "michaelcosj@proton.me";
+export const authorEmail = "contact@michaelosajeh.com";
 
 export const url = dev
 	? "http://localhost:5173"
-	: "https://michaelcosj.pages.dev";
+	: "https://michaelosajeh.com";
 
 export const projects = [
 	{

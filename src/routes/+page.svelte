@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { projects, title, socials } from "$lib/config";
+  import { projects, title, socials, subtitle } from "$lib/config";
   import ProjectCard from "$lib/components/ProjectCard.svelte";
   import Link from "$lib/components/Link.svelte";
   import PostCard from "$lib/components/PostCard.svelte";
@@ -16,6 +16,7 @@
 
 <svelte:head>
   <title>{title}</title>
+	<meta name={title} content={subtitle} />
 </svelte:head>
 
 <section>
