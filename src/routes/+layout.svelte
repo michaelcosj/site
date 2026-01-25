@@ -8,7 +8,6 @@
   let { children }: Props = $props();
 </script>
 
-
 <Nav />
 
 <main class="relative md:px-24">

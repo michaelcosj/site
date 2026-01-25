@@ -16,7 +16,7 @@
 
 <svelte:head>
   <title>{title}</title>
-	<meta name={title} content={subtitle} />
+	<meta name="description" content={subtitle} />
 </svelte:head>
 
 <section>

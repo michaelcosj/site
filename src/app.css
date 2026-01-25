@@ -1,6 +1,3 @@
-@import '@fontsource-variable/roboto-mono' layer(base);
-@import '@fontsource/inter' layer(base);
-
 @import 'tailwindcss';
 
 @plugin '@tailwindcss/typography';
@@ -29,7 +26,7 @@ body {
 }
 
 .mono {
-  font-family: "Roboto Mono Variable", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 :root {

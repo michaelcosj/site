@@ -1,7 +1,7 @@
 import { dev } from "$app/environment";
 
 export const title = "Michael's website";
-export const subtitle = "Michael's personal corner of da web";
+export const subtitle = "Michael's personal corner of the web";
 export const authorName = "Michael Osajeh";
 export const authorEmail = "contact@michaelosajeh.com";
 

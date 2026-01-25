@@ -22,7 +22,7 @@
       <ul class="flex gap-3 min-w-fit items-center">
         {#if project.url}
           <li>
-            <a href={project.url}>
+            <a aria-label="Live link to {project.name} project" href={project.url}>
               <div
                 class="px-0.5 hover:bg-black hover:has-[svg]:text-white dark:hover:bg-white dark:hover:has-[svg]:text-black"
               >
@@ -33,7 +33,7 @@
         {/if}
         {#if project.github}
           <li>
-            <a href={project.github}>
+            <a aria-label="Github link for {project.name} project" href={project.github}>
               <div
                 class="px-0.5 hover:bg-black hover:has-[svg]:text-white dark:hover:bg-white dark:hover:has-[svg]:text-black"
               >
