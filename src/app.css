@@ -33,7 +33,7 @@ body {
 }
 
 :root {
-  @apply bg-linear-to-r from-black to-gray-950 text-white
+  @apply bg-linear-to-bl from-black to-gray-950 text-white
 }
 
 @media (prefers-color-scheme: light) {
