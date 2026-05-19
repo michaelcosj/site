@@ -39,7 +39,7 @@ export const socials = [
 	},
 	{
 		name: "linkedIn",
-		url: "https://linkedin.com/michael-osajeh-331995234",
+		url: "https://www.linkedin.com/in/michael-osajeh-331995234/",
 	},
 	{
 		name: "x (twitter)",
